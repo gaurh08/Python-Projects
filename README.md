@@ -1,2 +1,2 @@
 # Python-Projects
-Python Projects repositories
+Python Projects repositorie
