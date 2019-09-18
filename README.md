@@ -10,3 +10,5 @@ This repository consists of Python projects.
 03-FloorCost.ipynb: Calculate Total Cost of Floor plan, Date: 17th Sep, 2019.
 
 04-factorial.py: Calculate factorial of a given number using recursion, Date: 18th Sep, 2019
+
+05-stacks.py: Implementation of stacks using Python Lists, Date: 18th Sep, 2019
