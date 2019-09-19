@@ -1,32 +1,23 @@
 # Implementation of stacks using Python:
 
-
 def createStack():
     global stack
     stack = []
     return stack
 
-
 def addItem(stack, num):
     stack.append(num)
     print(f'{num} is pushed into stack')
-
 
 def removeItem(stack):
     num = stack.pop()
     print(f'{num} is popped from stack')
 
-
 def isEmpty(stack):
-    if len(stack) == 0:
-        print("Stack is Empty")
-    else:
-        print("Stack is not Empty. Current stack is ", stack)
-
+    return len(stack) == 0
 
 def checkTop(stack):
     print("Top element of stack is ", stack[-1])
-
 
 def main():
     while True:
